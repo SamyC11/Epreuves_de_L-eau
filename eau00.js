@@ -15,7 +15,7 @@ for (let i = tableau1.length - 1; i >= 0; i--) {
     }
 }
 
-//suppression des valeurs les plus grandes avec les mêmes chifres
+//Suppression des valeurs les plus grandes avec les mêmes chifres
 
 for (let i = 0; i < tableau1.length; i++) {
     let combinaison1 = [tableau1[i][1], tableau1[i][2], tableau1[i][0]].toString().replaceAll(',', "");
@@ -29,4 +29,7 @@ for (let i = 0; i < tableau1.length; i++) {
         }
     }
 }
+
+//Affichage résultat
+
 console.log(tableau1);
